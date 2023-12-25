@@ -1,0 +1,48 @@
+:root {
+  --accent: darksalmon;
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--accent);
+}
+
+.secondaryNavigation {
+  background-color: chocolate;
+  grid-area: nav;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.secondaryNavigation ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  color: var(--white);
+  position: sticky;
+  top: 150px;
+  z-index: 9;
+}
+
+main {
+  margin-top: 100px;
+  padding: 400px 0 0;
+  background-color: yellowgreen;
+}
+@media (max-width: 1550px) {
+  main {
+    padding-top: 200px;
+  }
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: beige;
+}
